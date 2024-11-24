@@ -26,15 +26,20 @@
 
 ##  Overview
 
-<code>❯ In this project, we’ll implement a simple Spring configuration for a Spring Data JPA system with multiple databases.</code>
+<code>❯ This project, MultiDataSourceConnectionDataJPA, is a showcase of implementing a multi-datasource architecture using Spring Data JPA. It demonstrates the configuration and utilization of multiple data sources within a single Spring Boot application. This setup is ideal for scenarios requiring interaction with diverse databases or segregated data storage.</code>
 
 ---
 
 ##  Features
+<code>❯ Multi-Datasource Configuration: Establishes connections with multiple databases using distinct DataSource configurations.</code>
 
-<code>❯ Multi DataSource Connectivity</code>
-<code>❯ Rest Application</code>
-<code>❯ Custom EntityManager Creation</code>
+<code>❯ Dynamic Data Access: Ensures seamless interaction with multiple databases through configured repositories.</code>
+
+<code>❯ Transaction Management: Demonstrates the use of TransactionManager for handling transactions across different data sources.</code>
+
+<code>❯ Spring REST Integration: Exposes APIs for interacting with the data sources in a structured and RESTful manner.</code>
+
+<code>❯ Best Practices in Spring JPA: Implements proper configuration for entity management and efficient data handling.</code>
 
 ---
 
