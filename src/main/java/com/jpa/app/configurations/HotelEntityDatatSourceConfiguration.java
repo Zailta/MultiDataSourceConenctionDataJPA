@@ -19,7 +19,7 @@ public class HotelEntityDatatSourceConfiguration {
 	}
 	
 	@Bean
-	public DataSource UserEntityDatatSource() {
+	public DataSource HotelEntityDatatSource() {
 		return HotelEntityDatatSourceProperties().initializeDataSourceBuilder().build();
 	}
 }
