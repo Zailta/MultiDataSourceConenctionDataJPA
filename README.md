@@ -263,6 +263,7 @@ Install MultiDataSourceConenctionDataJPA using one of the following methods:
 ```sh
 ❯ Start Coding!!
 ```
+**Note: Ensure to have your own DB tables configured in the Entity classes and application.properties accordingly**
 
 ---
 
