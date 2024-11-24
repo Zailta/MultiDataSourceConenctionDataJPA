@@ -5,10 +5,10 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.jpa.app.entity.HotelEntity;
-import com.jpa.app.entity.UserEntity;
-import com.jpa.app.repo.HotelEntityRepository;
-import com.jpa.app.repo.UserEntityrepository;
+import com.jpa.app.entity.hotel.HotelEntity;
+import com.jpa.app.entity.user.UserEntity;
+import com.jpa.app.repo.hotel.HotelEntityRepository;
+import com.jpa.app.repo.user.UserEntityrepository;
 
 @Service
 public class RequestHandlerService {

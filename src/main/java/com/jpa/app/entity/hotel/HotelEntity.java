@@ -1,4 +1,4 @@
-package com.jpa.app.entity;
+package com.jpa.app.entity.hotel;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

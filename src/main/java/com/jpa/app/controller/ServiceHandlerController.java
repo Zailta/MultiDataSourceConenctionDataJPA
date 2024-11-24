@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.jpa.app.entity.HotelEntity;
-import com.jpa.app.entity.UserEntity;
+import com.jpa.app.entity.hotel.HotelEntity;
+import com.jpa.app.entity.user.UserEntity;
 import com.jpa.app.service.RequestHandlerService;
 
 @RestController
